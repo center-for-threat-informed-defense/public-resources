@@ -1,0 +1,152 @@
+{
+	"name": "COVID-19andTeleworking041320",
+	"version": "2.2",
+	"domain": "mitre-enterprise",
+	"description": "",
+	"filters": {
+		"stages": [
+			"act"
+		],
+		"platforms": [
+			"Windows",
+			"Linux",
+			"macOS"
+		]
+	},
+	"sorting": 3,
+	"viewMode": 0,
+	"hideDisabled": false,
+	"techniques": [
+		{
+			"techniqueID": "T1189",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "#9ecae1",
+			"comment": "New coronavirus themed websites/domains popping up that host malware - \n\nhttps://www.ama-assn.org/system/files/2020-03/coronavirus-map-alert.pdf",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1133",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "#9ecae1",
+			"comment": "Exploitation of teleworking infrastructure -\n\nhttps://www.us-cert.gov/ncas/alerts/aa20-099a\n\nhttps://blog.reposify.com/127-increase-in-exposed-rdps-due-to-surge-in-remote-work",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1133",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "#9ecae1",
+			"comment": "Exploitation of teleworking infrastructure -\n\nhttps://www.us-cert.gov/ncas/alerts/aa20-099a\n\nhttps://blog.reposify.com/127-increase-in-exposed-rdps-due-to-surge-in-remote-work",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1036",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "#9ecae1",
+			"comment": "Fake Zoom installers - \n\nhttps://blog.checkpoint.com/2020/03/30/covid-19-impact-cyber-criminals-target-zoom-domains/",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1076",
+			"tactic": "lateral-movement",
+			"score": 1,
+			"color": "#9ecae1",
+			"comment": "RDP brute force -\n\nhttps://www.microsoft.com/security/blog/2020/03/05/human-operated-ransomware-attacks-a-preventable-disaster/",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1193",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "#9ecae1",
+			"comment": "COVID-19 topic for phishing emails - \n\nhttps://blog.checkpoint.com/2020/03/30/covid-19-impact-cyber-criminals-target-zoom-domains/ \n\nhttps://securityboulevard.com/2020/04/sophisticated-covid-19-based-phishing-attacks-leverage-pdf-attachments-and-saas-to-bypass-defenses/\n\nhttps://www.carbonblack.com/2020/03/19/technical-analysis-hackers-leveraging-covid-19-pandemic-to-launch-phishing-attacks-trojans-backdoors-cryptominers-botnets-ransomware/",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1192",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "#9ecae1",
+			"comment": "COVID-19 and teleworking phishing emails - \n\nhttps://us.norton.com/internetsecurity-online-scams-coronavirus-phishing-scams.html \n\nhttps://perception-point.io/resources/incident-reports/new-phishing-campaign-remote-working-vpn-installation/",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1486",
+			"tactic": "impact",
+			"score": 1,
+			"color": "#9ecae1",
+			"comment": "Ransomware -\n\nhttps://www.microsoft.com/security/blog/2020/03/05/human-operated-ransomware-attacks-a-preventable-disaster/\n\nhttps://www.bleepingcomputer.com/news/security/new-coronavirus-ransomware-acts-as-cover-for-kpot-infostealer/",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1190",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "#9ecae1",
+			"comment": "Exploit to web server running Citrix -\n\nhttps://www.us-cert.gov/ncas/alerts/aa20-099a",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "#9ecae1",
+			"comment": "Phishing for credential theft -\n\nhttps://www.us-cert.gov/ncas/alerts/aa20-099a",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "#9ecae1",
+			"comment": "Phishing for credential theft -\n\nhttps://www.us-cert.gov/ncas/alerts/aa20-099a",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "privilege-escalation",
+			"score": 1,
+			"color": "#9ecae1",
+			"comment": "Phishing for credential theft -\n\nhttps://www.us-cert.gov/ncas/alerts/aa20-099a",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "#9ecae1",
+			"comment": "Phishing for credential theft -\n\nhttps://www.us-cert.gov/ncas/alerts/aa20-099a",
+			"enabled": true,
+			"metadata": []
+		}
+	],
+	"gradient": {
+		"colors": [
+			"#ff6666",
+			"#ffe766",
+			"#8ec843"
+		],
+		"minValue": 0,
+		"maxValue": 100
+	},
+	"legendItems": [],
+	"metadata": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true
+}
