@@ -1,6 +1,6 @@
 # Tracking UNC2452-Related Reporting
 
-MITRE's ATT&CK team - with the assistance of contributors - has been mapping techniques related to a recent intrusion campaign, referred to as Solarigate by Microsoft, by a threat group referred to as UNC2452/Dark Halo by FireEye and Volexity respectively.
+MITRE's ATT&CK team - with the assistance of contributors - has been mapping techniques related to a recent intrusion campaign, referred to as Solorigate by Microsoft, by a threat group referred to as UNC2452/Dark Halo by FireEye and Volexity respectively.
 
 It's been difficult keeping up with all the reporting and updates while trying to track down descriptions of adversary behavior, particularly as we're looking for direct analysis of intrusion data rather than derivative reporting. To that end, we're sharing a list of the reports and alerts we've been following to date. This list doesn't include everything that has been said about this intrusion, but rather those reports directly analyzing intrusion data, with a focus on describing adversary behavior.
 
@@ -69,10 +69,10 @@ If you see a report you think we're missing that matches the above, we'd be inte
 
 ## Microsoft
 
-- An overview of the "Solarigate" cyber intrusion targeted at users of Microsoft 365 Defender containing some new details of post-compromise activity.
+- An overview of the "Solorigate" cyber intrusion targeted at users of Microsoft 365 Defender containing some new details of post-compromise activity.
     - Released 28 December 2020
     - https://www.microsoft.com/security/blog/2020/12/28/using-microsoft-365-defender-to-coordinate-protection-against-solorigate/
-- A central list of Microsoft’s posts/reports/other hunting resources related to the “Solarigate” intrusion.
+- A central list of Microsoft’s posts/reports/other hunting resources related to the “solorigate” intrusion.
     - Released 21 December 2020 (**Updated 28 December 2020**)
     - https://aka.ms/solorigate
 - Detailed descriptions of attack patterns against identity mechanisms and visible indications of compromise to identity vendors and consumers.
@@ -85,7 +85,7 @@ If you see a report you think we're missing that matches the above, we'd be inte
 - New hunting and detection queries for Azure Sentinel.
     - Released 16 December 2020 (**Updated 28 December 2020**)
     - https://techcommunity.microsoft.com/t5/azure-sentinel/solarwinds-post-compromise-hunting-with-azure-sentinel/ba-p/1995095
-- An overview of the “Solarigate” cyber intrusion and a frequently updated list of most of the public Microsoft posts/reports related to it targeted at customers.
+- An overview of the “solorigate” cyber intrusion and a frequently updated list of most of the public Microsoft posts/reports related to it targeted at customers.
     - Released 13 December 2020 (**Updated 21 December 2020**)
     - https://msrc-blog.microsoft.com/2020/12/13/customer-guidance-on-recent-nation-state-cyber-attacks/
 - Microsoft’s initial report describing key early activities in the intrusion at a high level.
