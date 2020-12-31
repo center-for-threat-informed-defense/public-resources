@@ -32,7 +32,6 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://research.checkpoint.com/2020/sunburst-teardrop-and-the-netsec-new-normal/
 
 ## Department of Homeland Security/Cybersecurity and Infrastructure Security Agency (DHS/CISA)
-
 - On 23 December, CISA announced its creation of a new Supply Chain Compromise website related to what CISA describes as an ongoing intrusion.
     - Released 23 December 2020
     - https://us-cert.cisa.gov/ncas/current-activity/2020/12/23/cisa-releases-cisa-insights-and-creates-webpage-ongoing-apt-cyber
@@ -68,7 +67,9 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://www.mcafee.com/blogs/other-blogs/mcafee-labs/additional-analysis-into-the-sunburst-backdoor/
 
 ## Microsoft
-
+- Updated information on the known extent of Solorigate activity within Microsoft with some new details on actor behavior.
+    - Released 31 December 2020
+    - https://msrc-blog.microsoft.com/2020/12/31/microsoft-internal-solorigate-investigation-update/
 - An overview of the "Solorigate" cyber intrusion targeted at users of Microsoft 365 Defender containing some new details of post-compromise activity.
     - Released 28 December 2020
     - https://www.microsoft.com/security/blog/2020/12/28/using-microsoft-365-defender-to-coordinate-protection-against-solorigate/
@@ -109,13 +110,11 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://blog.reversinglabs.com/blog/sunburst-the-next-level-of-stealth
 
 ## SolarWinds
-
 - SolarWinds is updating its security advisory as new information becomes available, including which products are and are not known to be affected.
     - Released 13 December 2020 (**Updated 31 December 2020**)
     - https://www.solarwinds.com/securityadvisory
 
 ## Symantec
-
 - Describes a number of defense evasion techniques used by the Sunburst backdoor.
     - Released 21 December 2020
     - https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/solarwinds-attacks-stealthy-attackers-attempted-evade-detection
