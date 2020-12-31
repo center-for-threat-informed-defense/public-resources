@@ -111,7 +111,7 @@ If you see a report you think we're missing that matches the above, we'd be inte
 ## SolarWinds
 
 - SolarWinds is updating its security advisory as new information becomes available, including which products are and are not known to be affected.
-    - Released 13 December 2020 (**Updated 27 December 2020**)
+    - Released 13 December 2020 (**Updated 31 December 2020**)
     - https://www.solarwinds.com/securityadvisory
 
 ## Symantec
