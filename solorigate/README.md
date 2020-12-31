@@ -110,6 +110,11 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://blog.reversinglabs.com/blog/sunburst-the-next-level-of-stealth
 
 ## SolarWinds
+- SolarWinds 8-K filings related to their security incident that include unique details on how their Orion Platform products were modified.
+    - Released 17 December 2020
+    - https://www.sec.gov/ix?doc=/Archives/edgar/data/1739942/000162828020017451/swi-20201214.htm
+    - https://www.sec.gov/ix?doc=/Archives/edgar/data/1739942/000162828020017620/swi-20201217.htm
+
 - SolarWinds is updating its security advisory as new information becomes available, including which products are and are not known to be affected.
     - Released 13 December 2020 (**Updated 31 December 2020**)
     - https://www.solarwinds.com/securityadvisory
