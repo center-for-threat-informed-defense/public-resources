@@ -54,7 +54,7 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html
 
 - A repository of countermeasures against malware related to the UNC2452 Solarwinds compromise. Note: this repository contains signatures and indicators for the COSMICGALE and SUPERNOVA malware, which was originally combined with information from the UNC2452 Solarwinds compromise but was separated out as an unrelated intrusion on 16 December 2020.
-    - Released 13 December 2020 (Updated 21 December 2020)
+    - Released 13 December 2020 (**Updated 21 December 2020**)
     - https://github.com/fireeye/sunburst_countermeasures
 
 - In a broader context, it's also worth bearing in mind the theft of FireEye's Red Team tools, as disclosed in early December.
@@ -74,7 +74,7 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - Released 28 December 2020
     - https://www.microsoft.com/security/blog/2020/12/28/using-microsoft-365-defender-to-coordinate-protection-against-solorigate/
 - A central list of Microsoft’s posts/reports/other hunting resources related to the “solorigate” intrusion.
-    - Released 21 December 2020 (**Updated 28 December 2020**)
+    - Released 21 December 2020 (**Updated 31 December 2020**)
     - https://aka.ms/solorigate
 - Detailed descriptions of attack patterns against identity mechanisms and visible indications of compromise to identity vendors and consumers.
     - Released 21 December 2020
