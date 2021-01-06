@@ -44,8 +44,8 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - Released 17 December 2020 (**Updated 23 December 2020**)
     - https://us-cert.cisa.gov/ncas/alerts/aa20-352a
 
-- CISA is also updating Emergency Directive 21–01 as more information about the attack becomes available.
-    - Released 13 December 2020 (**Updated 30 December 2020**)
+- CISA is also updating Emergency Directive 21–01, including corresponding guidance, as more information about the attack becomes available.
+    - Released 13 December 2020 (**Updated 6 January 2021**)
     - https://cyber.dhs.gov/ed/21-01/#supplemental-guidance
 
 ## FireEye
