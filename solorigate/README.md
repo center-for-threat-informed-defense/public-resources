@@ -32,6 +32,10 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://research.checkpoint.com/2020/sunburst-teardrop-and-the-netsec-new-normal/
 
 ## Department of Homeland Security/Cybersecurity and Infrastructure Security Agency (DHS/CISA)
+- On 5 January 2021, CISA, FBI, NSA, and ODNI issued a joint statement that noted the SolarWinds intrusion was "likely Russian in origin" and to date fewer then 10 US government organizations had been compromised, however the investigation is ongoing.
+    - Released 5 January 2021
+    - https://www.cisa.gov/news/2021/01/05/joint-statement-federal-bureau-investigation-fbi-cybersecurity-and-infrastructure
+
 - On 23 December, CISA announced its creation of a new Supply Chain Compromise website related to what CISA describes as an ongoing intrusion.
     - Released 23 December 2020
     - https://us-cert.cisa.gov/ncas/current-activity/2020/12/23/cisa-releases-cisa-insights-and-creates-webpage-ongoing-apt-cyber
