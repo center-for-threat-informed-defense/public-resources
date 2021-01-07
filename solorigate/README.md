@@ -14,13 +14,14 @@ If you see a report you think we're missing that matches the above, we'd be inte
       * [McAfee](#mcafee)
       * [Microsoft](#microsoft)
       * [National Security Agency (NSA)](#national-security-agencynsa)
+      * [Netresec](#netresec)
       * [Palo Alto](#palo-alto)
       * [ReversingLabs](#reversinglabs)
       * [SolarWinds](#solarwinds)
       * [Symantec](#symantec)
       * [Volexity](#volexity)
 
-<!-- Added by: adamp, at: Wed Dec 30 13:23:04 EST 2020 -->
+<!-- Added by: adamp, at: Thu Jan  7 14:27:11 EST 2021 -->
 
 <!--te-->
 
@@ -102,6 +103,11 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - Released 17 December 2020
     - https://twitter.com/NSACyber/status/1339759778923474944
     - https://media.defense.gov/2020/Dec/17/2002554125/-1/-1/0/AUTHENTICATION_MECHANISMS_CSA_U_OO_198854_20.PDF
+
+## Netresec
+- Technical details of SUNBURST DNS queries with information about a bit set by the malware to indicate that it is ready for a new C2 domain. This bit may be usable from passive DNS queries to determine what stage of intrusion a system progessed to.
+    - Released 4 January 2021
+    - https://www.netresec.com/?page=Blog&month=2021-01&post=Finding-Targeted-SUNBURST-Victims-with-pDNS
 
 ## Palo Alto
 - A timeline summary of this intrusion based on publicly-available information as well as Palo Alto's internal data.
