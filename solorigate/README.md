@@ -34,15 +34,19 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://research.checkpoint.com/2020/sunburst-teardrop-and-the-netsec-new-normal/
 
 ## Department of Homeland Security/Cybersecurity and Infrastructure Security Agency (DHS/CISA)
+- CISA issued an accompanying Alert to AA20-352a that addresses additional TTPs attributed to the same actor. The Alert notes techniques unrelated to compromised SolarWinds Orion products the APT actor may have used to obtain initial access, and provides a list of detection tools and methods.
+    - Released 8 January 2021
+    - https://us-cert.cisa.gov/ncas/alerts/aa21-008a
+
 - On 5 January 2021, CISA, FBI, NSA, and ODNI issued a joint statement that noted the SolarWinds intrusion was "likely Russian in origin" and to date fewer then 10 US government organizations had been compromised, however the investigation is ongoing.
-    - Released 5 January 2021
+    - Released 5 January
     - https://www.cisa.gov/news/2021/01/05/joint-statement-federal-bureau-investigation-fbi-cybersecurity-and-infrastructure
 
 - On 23 December, CISA announced its creation of a new Supply Chain Compromise website related to what CISA describes as an ongoing intrusion.
     - Released 23 December 2020
     - https://us-cert.cisa.gov/ncas/current-activity/2020/12/23/cisa-releases-cisa-insights-and-creates-webpage-ongoing-apt-cyber
 
-- DHS/CISA is periodically updating this alert regarding observed TTPs and mitigation recommendations; as of 19 December 2020 CISA noted evidence of initial access vectors other than the SolarWinds Orion platform.
+- CISA is periodically updating this alert regarding observed TTPs and mitigation recommendations; as of 19 December 2020 CISA noted evidence of initial access vectors other than the SolarWinds Orion platform.
     - Released 17 December 2020 (**Updated 6 January 2021**)
     - https://us-cert.cisa.gov/ncas/alerts/aa20-352a
 
