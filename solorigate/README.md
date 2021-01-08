@@ -39,7 +39,7 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://us-cert.cisa.gov/ncas/alerts/aa21-008a
 
 - On 5 January 2021, CISA, FBI, NSA, and ODNI issued a joint statement that noted the SolarWinds intrusion was "likely Russian in origin" and to date fewer then 10 US government organizations had been compromised, however the investigation is ongoing.
-    - Released 5 January
+    - Released 5 January 2021
     - https://www.cisa.gov/news/2021/01/05/joint-statement-federal-bureau-investigation-fbi-cybersecurity-and-infrastructure
 
 - On 23 December, CISA announced its creation of a new Supply Chain Compromise website related to what CISA describes as an ongoing intrusion.
