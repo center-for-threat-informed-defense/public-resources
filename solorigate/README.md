@@ -10,6 +10,7 @@ If you see a report you think we're missing that matches the above, we'd be inte
    * [Tracking UNC2452-Related Reporting](#tracking-unc2452-related-reporting)
       * [Checkpoint](#checkpoint)
       * [Department of Homeland Security/Cybersecurity and Infrastructure Security Agency (DHS/CISA)](#department-of-homeland-securitycybersecurity-and-infrastructure-security-agency-dhscisa)
+      * [DomainTools](#domaintools)
       * [FireEye](#fireeye)
       * [McAfee](#mcafee)
       * [Microsoft](#microsoft)
@@ -21,7 +22,7 @@ If you see a report you think we're missing that matches the above, we'd be inte
       * [Symantec](#symantec)
       * [Volexity](#volexity)
 
-<!-- Added by: adamp, at: Thu Jan  7 14:27:11 EST 2021 -->
+<!-- Added by: adamp, at: Thu Jan  7 19:31:51 EST 2021 -->
 
 <!--te-->
 
@@ -48,6 +49,11 @@ If you see a report you think we're missing that matches the above, we'd be inte
 - CISA is also updating Emergency Directive 21–01, including corresponding guidance, as more information about the attack becomes available.
     - Released 13 December 2020 (**Updated 6 January 2021**)
     - https://cyber.dhs.gov/ed/21-01/#supplemental-guidance
+
+## DomainTools
+- An analysis of the network C2 infrastructure used by the SUNBURST malware along with timeline information gathered from DomainTools' passive DNS.
+    - Released 14 December 2020
+    - https://www.domaintools.com/resources/blog/unraveling-network-infrastructure-linked-to-the-solarwinds-hack
 
 ## FireEye
 - An in-depth analysis of the SUNBURST backdoor with a focus on anti-analysis environment checks and blocklists, domain generation algorithm and variations, command and Control (C2) behaviors for DNS A and CNAME records, and malware modes of operation.
