@@ -47,7 +47,7 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://us-cert.cisa.gov/ncas/current-activity/2020/12/23/cisa-releases-cisa-insights-and-creates-webpage-ongoing-apt-cyber
 
 - CISA is periodically updating this alert regarding observed TTPs and mitigation recommendations; as of 19 December 2020 CISA noted evidence of initial access vectors other than the SolarWinds Orion platform.
-    - Released 17 December 2020 (**Updated 6 January 2021**)
+    - Released 17 December 2020 (**Updated 7 January 2021**)
     - https://us-cert.cisa.gov/ncas/alerts/aa20-352a
 
 - CISA is also updating Emergency Directive 21–01, including corresponding guidance, as more information about the attack becomes available.
