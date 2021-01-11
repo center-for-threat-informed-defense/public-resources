@@ -9,6 +9,7 @@ If you see a report you think we're missing that matches the above, we'd be inte
 <!--ts-->
    * [Tracking UNC2452-Related Reporting](#tracking-unc2452-related-reporting)
       * [Checkpoint](#checkpoint)
+      * [CrowdStrike](#crowdstrike)
       * [Department of Homeland Security/Cybersecurity and Infrastructure Security Agency (DHS/CISA)](#department-of-homeland-securitycybersecurity-and-infrastructure-security-agency-dhscisa)
       * [DomainTools](#domaintools)
       * [FireEye](#fireeye)
@@ -32,6 +33,11 @@ If you see a report you think we're missing that matches the above, we'd be inte
 - Analysis of the SUNBURST backdoor and its TEARDROP payload with a focus on their obfuscation and control flow.
     - Released 22 December 2020
     - https://research.checkpoint.com/2020/sunburst-teardrop-and-the-netsec-new-normal/
+
+## CrowdStrike
+- CrowdStrike, through its work with SolarWinds, identified what it refers to as the SUNSPOT implant, which was used to inject the SUNBURST backdoor into software builds of the SolarWinds Orion IT management product. CrowdStrike is tracking this intrusion under the "StellarParticle" activity cluster.
+    - Released 11 January 2021
+    - https://www.crowdstrike.com/blog/sunspot-malware-technical-analysis/
 
 ## Department of Homeland Security/Cybersecurity and Infrastructure Security Agency (DHS/CISA)
 - CISA issued an accompanying Alert to AA20-352a that addresses additional TTPs attributed to the same actor. The Alert notes techniques unrelated to compromised SolarWinds Orion products the APT actor may have used to obtain initial access, and provides a list of detection tools and methods.
@@ -130,6 +136,10 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://blog.reversinglabs.com/blog/sunburst-the-next-level-of-stealth
 
 ## SolarWinds
+- SolarWinds provided an update on its investigation that included an attack timeline and initial references to the SUNSPOT implant.
+    - Released 11 January 2021
+    - https://orangematter.solarwinds.com/2021/01/11/new-findings-from-our-investigation-of-sunburst/
+    
 - SolarWinds 8-K filings related to their security incident that include unique details on how their Orion Platform products were modified.
     - Released 17 December 2020
     - https://www.sec.gov/ix?doc=/Archives/edgar/data/1739942/000162828020017451/swi-20201214.htm
