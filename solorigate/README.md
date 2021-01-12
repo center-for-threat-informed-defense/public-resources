@@ -13,6 +13,7 @@ If you see a report you think we're missing that matches the above, we'd be inte
       * [Department of Homeland Security/Cybersecurity and Infrastructure Security Agency (DHS/CISA)](#department-of-homeland-securitycybersecurity-and-infrastructure-security-agency-dhscisa)
       * [DomainTools](#domaintools)
       * [FireEye](#fireeye)
+      * [Kaspersky](#kaspersky)
       * [McAfee](#mcafee)
       * [Microsoft](#microsoft)
       * [National Security Agency (NSA)](#national-security-agencynsa)
@@ -81,6 +82,11 @@ If you see a report you think we're missing that matches the above, we'd be inte
 - In a broader context, it's also worth bearing in mind the theft of FireEye's Red Team tools, as disclosed in early December.
     - Released 8 December 2020
     - https://www.fireeye.com/blog/threat-research/2020/12/unauthorized-access-of-fireeye-red-team-tools.html
+
+## Kaspersky
+- Malware analysis identifying potential overlaps between the Sunburst backdoor and a previously identified .NET backdoor known as Kazuar. Kazuar was first reported by Palo Alto in 2017 and was tentatively linked to the Turla APT group, although no solid attribution link has been made. 
+    - Released 11 January 2021
+    - https://securelist.com/sunburst-backdoor-kazuar/99981/
 
 ## McAfee
 - McAfee Labs' analysis of SUNBURST malware.
@@ -162,7 +168,6 @@ If you see a report you think we're missing that matches the above, we'd be inte
 - Volexity tied the SolarWinds Orion software compromise to a threat group it tracks as "Dark Halo"; this report focuses on command-line actions taken post-compromise at a US-based think tank over the course of three Dark Halo intrusions, starting in late 2019.
     - Released 14 December 2020
     - https://www.volexity.com/blog/2020/12/14/dark-halo-leverages-solarwinds-compromise-to-breach-organizations/
-
 
 
 ---
