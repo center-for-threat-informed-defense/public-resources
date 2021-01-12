@@ -23,8 +23,9 @@ If you see a report you think we're missing that matches the above, we'd be inte
       * [SolarWinds](#solarwinds)
       * [Symantec](#symantec)
       * [Volexity](#volexity)
+      * [Yahoo](#yahoo)
 
-<!-- Added by: adamp, at: Thu Jan  7 19:31:51 EST 2021 -->
+<!-- Added by: adamp, at: Tue Jan 12 17:07:29 EST 2021 -->
 
 <!--te-->
 
