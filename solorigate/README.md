@@ -170,5 +170,10 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://www.volexity.com/blog/2020/12/14/dark-halo-leverages-solarwinds-compromise-to-breach-organizations/
 
 
+## Yahoo
+- Reporting by Kim Zetter that incudes details on UNC2452 enrolling a mobile device into FireEye's multi-factor authentication system in order to authenticate to the FireEye VPN.
+    - Released 18 December 2020
+    - https://news.yahoo.com/hackers-last-year-conducted-a-dry-run-of-solar-winds-breach-215232815.html
+
 ---
 ©2021 The MITRE Corporation. ALL RIGHTS RESERVED Approved for public release. Distribution unlimited 20-00841-19.
