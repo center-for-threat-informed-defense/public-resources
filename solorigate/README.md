@@ -22,6 +22,7 @@ If you see a report you think we're missing that matches the above, we'd be inte
       * [SolarWinds](#solarwinds)
       * [Symantec](#symantec)
       * [Volexity](#volexity)
+      * [Kaspersky](#kaspersky)
 
 <!-- Added by: adamp, at: Thu Jan  7 19:31:51 EST 2021 -->
 
@@ -163,6 +164,11 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - Released 14 December 2020
     - https://www.volexity.com/blog/2020/12/14/dark-halo-leverages-solarwinds-compromise-to-breach-organizations/
 
+
+## Kaspersky
+- Kaspersky identified the Sunburst backdoor to have overlap with a previously identified .NET backdoor known as Kazuar. Kazuar was first reported by Palo Alto in 2017 and was tentatively linked to the Turla APT group, although no solid attribution link has been made public. Kaspersky observations confirm that Kazuar was used together with other Turla tools during multiple breaches in past years.
+    - Released 11 January 2021
+    - https://securelist.com/sunburst-backdoor-kazuar/99981/
 
 
 ---
