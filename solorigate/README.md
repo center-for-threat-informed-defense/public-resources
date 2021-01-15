@@ -146,17 +146,21 @@ If you see a report you think we're missing that matches the above, we'd be inte
 - SolarWinds provided an update on its investigation that included an attack timeline and initial references to the SUNSPOT implant.
     - Released 11 January 2021
     - https://orangematter.solarwinds.com/2021/01/11/new-findings-from-our-investigation-of-sunburst/
-    
 - SolarWinds 8-K filings related to their security incident that include unique details on how their Orion Platform products were modified.
     - Released 17 December 2020
     - https://www.sec.gov/ix?doc=/Archives/edgar/data/1739942/000162828020017451/swi-20201214.htm
     - https://www.sec.gov/ix?doc=/Archives/edgar/data/1739942/000162828020017620/swi-20201217.htm
-
 - SolarWinds is updating its security advisory as new information becomes available, including which products are and are not known to be affected.
     - Released 13 December 2020 (**Updated 31 December 2020**)
     - https://www.solarwinds.com/securityadvisory
 
 ## Symantec
+- Describes the control flow via DNS for the Sunburst backdoor's command and control.
+    - Released 15 January 2021
+    - https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/solarwinds-sunburst-command-control
+- Analysis of how the Sunburst backdoor's domain generation algorithm (DGA) was used to initiate contact with the attackers’ command and control servers.
+    - Released 7 January 2021
+    - https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/solarwinds-unique-dga
 - Describes a number of defense evasion techniques used by the Sunburst backdoor.
     - Released 21 December 2020
     - https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/solarwinds-attacks-stealthy-attackers-attempted-evade-detection
