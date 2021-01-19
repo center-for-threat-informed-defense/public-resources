@@ -102,7 +102,7 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - Released 28 December 2020
     - https://www.microsoft.com/security/blog/2020/12/28/using-microsoft-365-defender-to-coordinate-protection-against-solorigate/
 - A central list of Microsoft’s posts/reports/other hunting resources related to the “solorigate” intrusion.
-    - Released 21 December 2020 (**Updated 31 December 2020**)
+    - Released 21 December 2020 (**Updated 15 January 2021**)
     - https://aka.ms/solorigate
 - Detailed descriptions of attack patterns against identity mechanisms and visible indications of compromise to identity vendors and consumers.
     - Released 21 December 2020
