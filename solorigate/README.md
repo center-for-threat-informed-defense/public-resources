@@ -95,6 +95,9 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://www.mcafee.com/blogs/other-blogs/mcafee-labs/additional-analysis-into-the-sunburst-backdoor/
 
 ## Microsoft
+- In-depth analysis of how the actors moved from SUNBURST/Solorigate to TEARDROP and RAINDROP to Cobalt Strike, and measures taken to reduce chances of detection.
+    - Released 20 January 2021
+    - https://www.microsoft.com/security/blog/2021/01/20/deep-dive-into-the-solorigate-second-stage-activation-from-sunburst-to-teardrop-and-raindrop/
 - Updated information on the known extent of Solorigate activity within Microsoft with some new details on actor behavior.
     - Released 31 December 2020
     - https://msrc-blog.microsoft.com/2020/12/31/microsoft-internal-solorigate-investigation-update/
