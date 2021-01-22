@@ -158,6 +158,9 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://www.solarwinds.com/securityadvisory
 
 ## Symantec
+- The fourth and final report on SUNBURST's command and control, focusing on how the malware sends data back to the attackers through HTTP(S) POST requests.
+    - Released 22 January 2021
+    - https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/solarwinds-sunburst-sending-data
 - Analysis of a new piece of malware, Raindrop, which was deployed laterally in intrusions and used for loading Cobalt Strike. Also describes a credential dumper designed specifically for SolarWinds Orion databases similar to the open source "solarflare" tool.
     - Released 19 January 2021
     - https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/solarwinds-raindrop-malware
