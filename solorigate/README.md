@@ -154,7 +154,7 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://www.sec.gov/ix?doc=/Archives/edgar/data/1739942/000162828020017451/swi-20201214.htm
     - https://www.sec.gov/ix?doc=/Archives/edgar/data/1739942/000162828020017620/swi-20201217.htm
 - SolarWinds is updating its security advisory as new information becomes available, including which products are and are not known to be affected.
-    - Released 13 December 2020 (**Updated 31 December 2020**)
+    - Released 13 December 2020 (**Updated 29 January 2021**)
     - https://www.solarwinds.com/securityadvisory
 
 ## Symantec
