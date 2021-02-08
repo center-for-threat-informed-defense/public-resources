@@ -42,6 +42,11 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://www.crowdstrike.com/blog/sunspot-malware-technical-analysis/
 
 ## Department of Homeland Security/Cybersecurity and Infrastructure Security Agency (DHS/CISA)
+- CISA released two Malware Analysis Reports (MAR) for SUNBURST and TEARDROP respectively.
+    - Released 8 February 2021
+    - https://us-cert.cisa.gov/ncas/analysis-reports/ar21-039a
+    - https://us-cert.cisa.gov/ncas/analysis-reports/ar21-039b
+
 - CISA issued an accompanying Alert to AA20-352a that addresses additional TTPs attributed to the same actor. The Alert notes techniques unrelated to compromised SolarWinds Orion products the APT actor may have used to obtain initial access, and provides a list of detection tools and methods.
     - Released 8 January 2021
     - https://us-cert.cisa.gov/ncas/alerts/aa21-008a
