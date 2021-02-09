@@ -48,7 +48,7 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://us-cert.cisa.gov/ncas/analysis-reports/ar21-039b
 
 - CISA issued an accompanying Alert to AA20-352a that addresses additional TTPs attributed to the same actor. The Alert notes techniques unrelated to compromised SolarWinds Orion products the APT actor may have used to obtain initial access, and provides a list of detection tools and methods.
-    - Released 8 January 2021
+    - Released 8 January 2021 (**Updated 4 February 2021**)
     - https://us-cert.cisa.gov/ncas/alerts/aa21-008a
 
 - On 5 January 2021, CISA, FBI, NSA, and ODNI issued a joint statement that noted the SolarWinds intrusion was "likely Russian in origin" and to date fewer then 10 US government organizations had been compromised, however the investigation is ongoing.
@@ -60,7 +60,7 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://us-cert.cisa.gov/ncas/current-activity/2020/12/23/cisa-releases-cisa-insights-and-creates-webpage-ongoing-apt-cyber
 
 - CISA is periodically updating this alert regarding observed TTPs and mitigation recommendations; as of 19 December 2020 CISA noted evidence of initial access vectors other than the SolarWinds Orion platform.
-    - Released 17 December 2020 (**Updated 1 February 2021**)
+    - Released 17 December 2020 (**Updated 8 February 2021**)
     - https://us-cert.cisa.gov/ncas/alerts/aa20-352a
 
 - CISA is also updating Emergency Directive 21–01, including corresponding guidance, as more information about the attack becomes available.
@@ -110,7 +110,7 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - Released 28 December 2020
     - https://www.microsoft.com/security/blog/2020/12/28/using-microsoft-365-defender-to-coordinate-protection-against-solorigate/
 - A central list of Microsoft’s posts/reports/other hunting resources related to the “solorigate” intrusion.
-    - Released 21 December 2020 (**Updated 21 January 2021**)
+    - Released 21 December 2020 (**Updated 5 February 2021**)
     - https://aka.ms/solorigate
 - Detailed descriptions of attack patterns against identity mechanisms and visible indications of compromise to identity vendors and consumers.
     - Released 21 December 2020
