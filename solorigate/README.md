@@ -136,6 +136,9 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://media.defense.gov/2020/Dec/17/2002554125/-1/-1/0/AUTHENTICATION_MECHANISMS_CSA_U_OO_198854_20.PDF
 
 ## Netresec
+- Additional details of the DNS-based C2 protocol used by the SUNBURST malware, with a focus on the "stage 2" CNAME-based protocol.
+    - Released 18 February 2021 
+    - https://www.netresec.com/?page=Blog&month=2021-02&post=Targeting-Process-for-the-SolarWinds-Backdoor
 - Technical details of SUNBURST DNS queries with information about a bit set by the malware to indicate that it is ready for a new C2 domain. This bit may be usable from passive DNS queries to determine what stage of intrusion a system progessed to.
     - Released 4 January 2021
     - https://www.netresec.com/?page=Blog&month=2021-01&post=Finding-Targeted-SUNBURST-Victims-with-pDNS
