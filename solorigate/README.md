@@ -120,7 +120,7 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - Released 18 December 2020
     - https://www.microsoft.com/security/blog/2020/12/18/analyzing-solorigate-the-compromised-dll-file-that-started-a-sophisticated-cyberattack-and-how-microsoft-defender-helps-protect/
 - New hunting and detection queries for Azure Sentinel.
-    - Released 16 December 2020 (**Updated 28 December 2020**)
+    - Released 16 December 2020 (**Updated 15 January 2021**)
     - https://techcommunity.microsoft.com/t5/azure-sentinel/solarwinds-post-compromise-hunting-with-azure-sentinel/ba-p/1995095
 - An overview of the “solorigate” cyber intrusion and a frequently updated list of most of the public Microsoft posts/reports related to it targeted at customers.
     - Released 13 December 2020 (**Updated 21 December 2020**)
