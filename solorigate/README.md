@@ -22,6 +22,7 @@ If you see a report you think we're missing that matches the above, we'd be inte
       * [ReversingLabs](#reversinglabs)
       * [SolarWinds](#solarwinds)
       * [Symantec](#symantec)
+      * [US Senate Select Committee on Intelligence (SSCI)](#us-senate-select-committee-on-intelligence-ssci)
       * [Volexity](#volexity)
       * [Yahoo](#yahoo)
 
@@ -186,6 +187,13 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - Released 14 December 2020 (**Updated 16 December 2020**)
     - https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/sunburst-supply-chain-attack-solarwinds
 
+## US Senate Select Committe on Intelligence (SSCI)
+- Opening statements from FireEye CEO Kevin Mandia, Microsoft President Brad Smith, CrowdStrike CEO George Kurtz, and SolarWinds CEO Sudhakar Ramakrishna during the SSCI open hearing, "Hearing on the Hack of U.S. Networks by a Foreign Adversary".
+   - Released 23 February 2021
+   - https://www.intelligence.senate.gov/sites/default/files/documents/os-kmandia-022321.pdf
+   - https://www.intelligence.senate.gov/sites/default/files/documents/os-bsmith-022321.pdf
+   - https://www.intelligence.senate.gov/sites/default/files/documents/os-gkurtz-022321.pdf
+   - https://www.intelligence.senate.gov/sites/default/files/documents/os-sramakrishna-022321.pdf   
 
 ## Volexity
 - Volexity tied the SolarWinds Orion software compromise to a threat group it tracks as "Dark Halo"; this report focuses on command-line actions taken post-compromise at a US-based think tank over the course of three Dark Halo intrusions, starting in late 2019.
