@@ -86,7 +86,7 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - Released 13 December 2020 (**Updated 21 December 2020**)
     - https://github.com/fireeye/sunburst_countermeasures
 
-- In a broader context, it's also worth bearing in mind the theft of FireEye's Red Team tools, as disclosed in early December.
+- In a broader context, it's also worth bearing in mind the theft of FireEye's Red Team tools, as disclosed in early December. This theft was later linked to UNC2452 in Kevin Mandia's SSCI testimony.
     - Released 8 December 2020
     - https://www.fireeye.com/blog/threat-research/2020/12/unauthorized-access-of-fireeye-red-team-tools.html
 
