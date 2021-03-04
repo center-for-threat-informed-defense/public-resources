@@ -74,6 +74,10 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://www.domaintools.com/resources/blog/unraveling-network-infrastructure-linked-to-the-solarwinds-hack
 
 ## FireEye
+- SUNSHUTTLE malware analysis report describing a newly-reported second-stage backdoor with links to UNC2452. SUNSHUTTLE is a Go-based backdoor that can generate fake traffic and responds to a number of commands from a C2 over HTTPS. This report was released in parallel with Microsoft's NOBELIUM report, which refers to this malware as GoldMax.
+  - Released 4 March 2021
+  - https://www.fireeye.com/blog/threat-research/2021/03/sunshuttle-second-stage-backdoor-targeting-us-based-entity.html    
+
 - An in-depth analysis of the SUNBURST backdoor with a focus on anti-analysis environment checks and blocklists, domain generation algorithm and variations, command and Control (C2) behaviors for DNS A and CNAME records, and malware modes of operation.
     - Released 24 December 2020
     - https://www.fireeye.com/blog/threat-research/2020/12/sunburst-additional-technical-details.html
@@ -101,6 +105,9 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://www.mcafee.com/blogs/other-blogs/mcafee-labs/additional-analysis-into-the-sunburst-backdoor/
 
 ## Microsoft
+- Introduction of NOBELIUM as the threat actor group name and includes analysis of three recently discovered pieces of malware: GoldMax - a RAT written in Go that can generate decoy network traffic (named by FireEye as SUNSHUTTLE), Silbot - malware that maintains persistence and can download and execute arbitrary payloads from a C2 server, and GoldFinder - another Go-based tool that can map out hops and proxies to a given C2 server.
+    - Released 4 March 2021
+    - https://www.microsoft.com/security/blog/2021/03/04/goldmax-goldfinder-sibot-analyzing-nobelium-malware/ 
 - In-depth analysis of how the actors moved from SUNBURST/Solorigate to TEARDROP and RAINDROP to Cobalt Strike, and measures taken to reduce chances of detection.
     - Released 20 January 2021
     - https://www.microsoft.com/security/blog/2021/01/20/deep-dive-into-the-solorigate-second-stage-activation-from-sunburst-to-teardrop-and-raindrop/
