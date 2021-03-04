@@ -1,6 +1,6 @@
 # Tracking UNC2452-Related Reporting
 
-MITRE's ATT&CK team - with the assistance of contributors - has been mapping techniques related to a recent intrusion campaign, referred to as Solorigate by Microsoft, by a threat group referred to as UNC2452/Dark Halo by FireEye and Volexity respectively.
+MITRE's ATT&CK team - with the assistance of contributors - has been mapping techniques related to a recent intrusion campaign, referred to as NOBELIUM by Microsoft, by a threat group referred to as UNC2452/Dark Halo by FireEye and Volexity respectively.
 
 It's been difficult keeping up with all the reporting and updates while trying to track down descriptions of adversary behavior, particularly as we're looking for direct analysis of intrusion data rather than derivative reporting. To that end, we're sharing a list of the reports and alerts we've been following to date. This list doesn't include everything that has been said about this intrusion, but rather those reports directly analyzing intrusion data, with a focus on describing adversary behavior. If you're interested in what ATT&CK techniques we've spotted so far from UNC2452 and the SUNBURST/TEARDROP malware, you can see our current [ATT&CK Navigator layer](https://mitre-attack.github.io/attack-navigator/#layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Fcenter-for-threat-informed-defense%2Fpublic-resources%2Fmaster%2Fsolorigate%2FUNC2452%2Bmalware.json), or [download it directly](UNC2452+malware.json). We've been updating what's new and being updated in ATT&CK [in our blog](https://medium.com/mitre-attack/identifying-unc2452-related-techniques-9f7b6c7f3714).
 
@@ -74,18 +74,18 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://www.domaintools.com/resources/blog/unraveling-network-infrastructure-linked-to-the-solarwinds-hack
 
 ## FireEye
+- A malware analysis report describing a newly reported second-stage back door, SUNSHUTTLE. Reported in parallel by Microsoft as GoldMax, SUNSHUTTLE is a Go-based backdoor that can generate fake traffic and responds to a number of commands from a C2 over https.
+    - Released 4 March 2021
+    - https://www.fireeye.com/blog/threat-research/2021/03/sunshuttle-second-stage-backdoor-targeting-us-based-entity.html
 - An in-depth analysis of the SUNBURST backdoor with a focus on anti-analysis environment checks and blocklists, domain generation algorithm and variations, command and Control (C2) behaviors for DNS A and CNAME records, and malware modes of operation.
     - Released 24 December 2020
     - https://www.fireeye.com/blog/threat-research/2020/12/sunburst-additional-technical-details.html
-
 - FireEye's initial report on UNC2452, SUNBURST malware, and TEARDROP malware, containing observed TTPs, detection opportunities, and mitigation recommendations.
     - Released 13 December 2020
     - https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html
-
 - A repository of countermeasures against malware related to the UNC2452 Solarwinds compromise. Note: this repository contains signatures and indicators for the COSMICGALE and SUPERNOVA malware, which was originally combined with information from the UNC2452 Solarwinds compromise but was separated out as an unrelated intrusion on 16 December 2020.
     - Released 13 December 2020 (**Updated 21 December 2020**)
     - https://github.com/fireeye/sunburst_countermeasures
-
 - In a broader context, it's also worth bearing in mind the theft of FireEye's Red Team tools, as disclosed in early December. This theft was later linked to UNC2452 in Kevin Mandia's SSCI testimony.
     - Released 8 December 2020
     - https://www.fireeye.com/blog/threat-research/2020/12/unauthorized-access-of-fireeye-red-team-tools.html
@@ -101,6 +101,9 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://www.mcafee.com/blogs/other-blogs/mcafee-labs/additional-analysis-into-the-sunburst-backdoor/
 
 ## Microsoft
+- Introduces a new group name from Microsoft for the threat actors, NOBELIUM, and introduces three newly described pieces of malware: GoldMax - a new RAT written in Go that can generate decoy network traffic (described by FireEye as SUNSHUTTLE), Silbot - malware that maintains persistence and can download and execute arbitrary payloads from a C2 server, and GoldFinder - another Go-based tool that can map out hops and proxies to a given C2 server.
+    - Released 4 March 2021
+    - https://www.microsoft.com/security/blog/2021/03/04/goldmax-goldfinder-sibot-analyzing-nobelium-malware/
 - In-depth analysis of how the actors moved from SUNBURST/Solorigate to TEARDROP and RAINDROP to Cobalt Strike, and measures taken to reduce chances of detection.
     - Released 20 January 2021
     - https://www.microsoft.com/security/blog/2021/01/20/deep-dive-into-the-solorigate-second-stage-activation-from-sunburst-to-teardrop-and-raindrop/
@@ -110,9 +113,9 @@ If you see a report you think we're missing that matches the above, we'd be inte
 - An overview of the "Solorigate" cyber intrusion targeted at users of Microsoft 365 Defender containing some new details of post-compromise activity.
     - Released 28 December 2020
     - https://www.microsoft.com/security/blog/2020/12/28/using-microsoft-365-defender-to-coordinate-protection-against-solorigate/
-- A central list of Microsoft’s posts/reports/other hunting resources related to the “solorigate” intrusion.
-    - Released 21 December 2020 (**Updated 5 February 2021**)
-    - https://aka.ms/solorigate
+- A central list of Microsoft’s posts/reports/other hunting resources related to the “NOBELIUM” intrusion.
+    - Released 21 December 2020 (**Updated 4 March 2021**)
+    -  https://aka.ms/nobelium
 - Detailed descriptions of attack patterns against identity mechanisms and visible indications of compromise to identity vendors and consumers.
     - Released 21 December 2020
     - https://techcommunity.microsoft.com/t5/azure-active-directory-identity/understanding-quot-solorigate-quot-s-identity-iocs-for-identity/ba-p/2007610
