@@ -43,6 +43,11 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://www.crowdstrike.com/blog/sunspot-malware-technical-analysis/
 
 ## Department of Homeland Security/Cybersecurity and Infrastructure Security Agency (DHS/CISA)
+- CISA created a centralized guidance page for conducting a risk/impact assessment, with corresponding remediation recommendations, for federal agencies, critical infrastructure operators, and private organizations. In the "Threat Actor Activity" section, CISA confirmed the attackers also gained initial access via password guessing (T1110.001) and password spraying (T1110.003), in addition to the supply chain compromise.
+    - Released 9 March 2021
+    - https://us-cert.cisa.gov/ncas/current-activity/2021/03/09/guidance-remediating-networks-affected-solarwinds-and-active
+    - https://us-cert.cisa.gov/remediating-apt-compromised-networks  
+
 - CISA released two Malware Analysis Reports (MAR) for SUNBURST and TEARDROP respectively.
     - Released 8 February 2021
     - https://us-cert.cisa.gov/ncas/analysis-reports/ar21-039a
