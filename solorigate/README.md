@@ -43,6 +43,10 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://www.crowdstrike.com/blog/sunspot-malware-technical-analysis/
 
 ## Department of Homeland Security/Cybersecurity and Infrastructure Security Agency (DHS/CISA)
+- CISA released a table of tactics, techniques, and procedures (TTPs) used by UNC2452 in the SolarWinds and Active Directory/M365 compromise. The table is desiged to help network defenders detect and remediate this activity by pairing tactics and techniques with corresponding detection recommendations.
+    - Released 17 March 2021
+    - https://us-cert.cisa.gov/sites/default/files/publications/SolarWinds_and_AD-M365_Compromise-Detecting_APT_Activity_from_Known_TTPs.pdf  
+
 - CISA created a centralized guidance page for conducting a risk/impact assessment, with corresponding remediation recommendations, for federal agencies, critical infrastructure operators, and private organizations. In the "Threat Actor Activity" section, CISA confirmed the attackers also gained initial access via password guessing (T1110.001) and password spraying (T1110.003), in addition to the supply chain compromise.
     - Released 9 March 2021
     - https://us-cert.cisa.gov/ncas/current-activity/2021/03/09/guidance-remediating-networks-affected-solarwinds-and-active
