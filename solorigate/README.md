@@ -87,6 +87,10 @@ If you see a report you think we're missing that matches the above, we'd be inte
   - Released 4 March 2021
   - https://www.fireeye.com/blog/threat-research/2021/03/sunshuttle-second-stage-backdoor-targeting-us-based-entity.html    
 
+- Blog post describing a number of adversary tactics, techniques, and procedures observed from UNC2452. The March 18th update added information about a new behavior, the threat actors modifying the permissions of mailbox folders.
+  - Released 19 January 2021 (**Updated 18 March 2021***)
+  - https://www.fireeye.com/blog/threat-research/2021/01/remediation-and-hardening-strategies-for-microsoft-365-to-defend-against-unc2452.html
+
 - An in-depth analysis of the SUNBURST backdoor with a focus on anti-analysis environment checks and blocklists, domain generation algorithm and variations, command and Control (C2) behaviors for DNS A and CNAME records, and malware modes of operation.
     - Released 24 December 2020
     - https://www.fireeye.com/blog/threat-research/2020/12/sunburst-additional-technical-details.html
