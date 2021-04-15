@@ -43,36 +43,35 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://www.crowdstrike.com/blog/sunspot-malware-technical-analysis/
 
 ## Department of Homeland Security/Cybersecurity and Infrastructure Security Agency (DHS/CISA)
+- CISA released a Malware Analysis Report for SOLARFLARE/GoldFinder and SUNSHUTTLE/GoldMax malware.
+    - Released 15 April 2021
+    - https://us-cert.cisa.gov/ncas/analysis-reports/ar21-105a  
+- CISA created a central page related to the Russian Foreign Intelligence Service's (SVR) targeting of US and Allied networks; the page includes a summary of CVEs SVR actors are exploiting, related alerts, Malware Analysis Reports for SUNBURST and TEARDROP, and remediation guidance for networks affected by this campaign.
+    - Released 15 April 2021
+    - https://us-cert.cisa.gov/ncas/current-activity/2021/04/15/nsa-cisa-fbi-joint-advisory-russian-svr-targeting-us-and-allied   
 - CISA released a table of tactics, techniques, and procedures (TTPs) used by UNC2452 in the SolarWinds and Active Directory/M365 compromise. The table is desiged to help network defenders detect and remediate this activity by pairing tactics and techniques with corresponding detection recommendations.
     - Released 17 March 2021
     - https://us-cert.cisa.gov/sites/default/files/publications/SolarWinds_and_AD-M365_Compromise-Detecting_APT_Activity_from_Known_TTPs.pdf  
-
 - CISA created a centralized guidance page for conducting a risk/impact assessment, with corresponding remediation recommendations, for federal agencies, critical infrastructure operators, and private organizations. In the "Threat Actor Activity" section, CISA confirmed the attackers also gained initial access via password guessing (T1110.001) and password spraying (T1110.003), in addition to the supply chain compromise.
     - Released 9 March 2021
     - https://us-cert.cisa.gov/ncas/current-activity/2021/03/09/guidance-remediating-networks-affected-solarwinds-and-active
     - https://us-cert.cisa.gov/remediating-apt-compromised-networks  
-
 - CISA released two Malware Analysis Reports (MAR) for SUNBURST and TEARDROP respectively.
     - Released 8 February 2021
     - https://us-cert.cisa.gov/ncas/analysis-reports/ar21-039a
     - https://us-cert.cisa.gov/ncas/analysis-reports/ar21-039b
-
 - CISA issued an accompanying Alert to AA20-352a that addresses additional TTPs attributed to the same actor. The Alert notes techniques unrelated to compromised SolarWinds Orion products the APT actor may have used to obtain initial access, and provides a list of detection tools and methods.
     - Released 8 January 2021 (**Updated 4 February 2021**)
     - https://us-cert.cisa.gov/ncas/alerts/aa21-008a
-
 - On 5 January 2021, CISA, FBI, NSA, and ODNI issued a joint statement that noted the SolarWinds intrusion was "likely Russian in origin" and to date fewer then 10 US government organizations had been compromised, however the investigation is ongoing.
     - Released 5 January 2021
     - https://www.cisa.gov/news/2021/01/05/joint-statement-federal-bureau-investigation-fbi-cybersecurity-and-infrastructure
-
 - On 23 December, CISA announced its creation of a new Supply Chain Compromise website related to what CISA describes as an ongoing intrusion.
     - Released 23 December 2020
     - https://us-cert.cisa.gov/ncas/current-activity/2020/12/23/cisa-releases-cisa-insights-and-creates-webpage-ongoing-apt-cyber
-
 - CISA is periodically updating this alert regarding observed TTPs and mitigation recommendations; as of 19 December 2020 CISA noted evidence of initial access vectors other than the SolarWinds Orion platform.
     - Released 17 December 2020 (**Updated 8 February 2021**)
     - https://us-cert.cisa.gov/ncas/alerts/aa20-352a
-
 - CISA is also updating Emergency Directive 21–01, including corresponding guidance, as more information about the attack becomes available.
     - Released 13 December 2020 (**Updated 6 January 2021**)
     - https://cyber.dhs.gov/ed/21-01/#supplemental-guidance
@@ -148,6 +147,9 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://blogs.microsoft.com/on-the-issues/2020/12/13/customers-protect-nation-state-cyberattacks/
 
 ## National Security Agency (NSA)
+- NSA issued a joint cybersecurity advisory, along with DHS/CISA and the FBI, regarding recent Russian SVR cyber activities, including the SolarWinds compromise. The advisory cites CVEs exploited as well as observed techniques, and provides mitigation guidance.
+    - Released 15 April 2021
+    - https://media.defense.gov/2021/Apr/15/2002621240/-1/-1/0/CSA_SVR_TARGETS_US_ALLIES_UOO13234021.PDF/CSA_SVR_TARGETS_US_ALLIES_UOO13234021.PDF
 - NSA issued a related cybersecurity advisory regarding detecting abuse of authentication mechanisms, including TTPs for gaining access to a victim network's cloud resources.
     - Released 17 December 2020
     - https://twitter.com/NSACyber/status/1339759778923474944
@@ -204,6 +206,11 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - Released 14 December 2020 (**Updated 16 December 2020**)
     - https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/sunburst-supply-chain-attack-solarwinds
 
+## UK National Cyber Security Centre (NCSC)
+- The UK NCSC published an alert stating Russia's SVR was responsible for the SolarWinds compromise, in addition to other cyber intrusions. The alert included links to NCSC guidance, including "Dealing with the SolarWinds Orion compromise" and "Identifying suspicious credential usage".
+  - Released 15 April 2021
+  - https://www.ncsc.gov.uk/news/uk-and-us-call-out-russia-for-solarwinds-compromise
+
 ## US Senate Select Committe on Intelligence (SSCI)
 - Opening statements from FireEye CEO Kevin Mandia, Microsoft President Brad Smith, CrowdStrike CEO George Kurtz, and SolarWinds CEO Sudhakar Ramakrishna during the SSCI open hearing, "Hearing on the Hack of U.S. Networks by a Foreign Adversary".
    - Released 23 February 2021
@@ -211,6 +218,11 @@ If you see a report you think we're missing that matches the above, we'd be inte
    - https://www.intelligence.senate.gov/sites/default/files/documents/os-bsmith-022321.pdf
    - https://www.intelligence.senate.gov/sites/default/files/documents/os-gkurtz-022321.pdf
    - https://www.intelligence.senate.gov/sites/default/files/documents/os-sramakrishna-022321.pdf   
+
+## US White House
+- The US White House released a fact sheet titled, "Imposing Costs for Harmful Foreign Activities by the Russian Government", that included the formal attribution of the SolarWinds Orion software compromise to Russia's SVR. The announcement also mentioned financial sanctions against six Russian technology companies that provide support to Russian intelligence cyber operations.
+    - Released 15 April 2021
+    - https://www.whitehouse.gov/briefing-room/statements-releases/2021/04/15/fact-sheet-imposing-costs-for-harmful-foreign-activities-by-the-russian-government/
 
 ## Volexity
 - Volexity tied the SolarWinds Orion software compromise to a threat group it tracks as "Dark Halo"; this report focuses on command-line actions taken post-compromise at a US-based think tank over the course of three Dark Halo intrusions, starting in late 2019.
