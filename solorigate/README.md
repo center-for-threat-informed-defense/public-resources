@@ -45,6 +45,9 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - https://www.crowdstrike.com/blog/sunspot-malware-technical-analysis/
 
 ## Department of Homeland Security/Cybersecurity and Infrastructure Security Agency (DHS/CISA)
+- CISA and FBI released a joint alert on Russia's Foreign Intelligence Service (SVR) cyber operations in light of the 15 April White House announcement attributing the SolarWinds compromise to the SVR. The alert provides information on some of the SVR's tools, targets, techniques, and capabilities to help network defenders investigate related activity and better secure their networks.
+    - Released 26 April 2021
+    - https://us-cert.cisa.gov/ncas/alerts/aa21-116a 
 - CISA released a Malware Analysis Report for SOLARFLARE/GoldFinder and SUNSHUTTLE/GoldMax malware.
     - Released 15 April 2021
     - https://us-cert.cisa.gov/ncas/analysis-reports/ar21-105a  
