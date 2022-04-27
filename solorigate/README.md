@@ -1,6 +1,6 @@
 # Tracking UNC2452-Related Reporting
 
-MITRE's ATT&CK team - with the assistance of contributors - has been mapping techniques related to a recent intrusion campaign, referred to as NOBELIUM by Microsoft, by a threat group referred to as UNC2452/Dark Halo by FireEye and Volexity respectively, and more recently attributed to the existing APT29/Cozy Bear/The Dukes threat group by NSA, CISA, and FBI.
+MITRE's ATT&CK team - with the assistance of contributors - has been mapping techniques related to a recent intrusion campaign, referred to as NOBELIUM by Microsoft, by a threat group referred to as UNC2452/Dark Halo by FireEye and Volexity respectively, and more recently attributed to the existing APT29/Cozy Bear/The Dukes threat group by Mandiant, NSA, CISA, and FBI.
 
 It's been difficult keeping up with all the reporting and updates while trying to track down descriptions of adversary behavior, particularly as we're looking for direct analysis of intrusion data rather than derivative reporting. To that end, we're sharing a list of the reports and alerts we've been following to date. This list doesn't include everything that has been said about this intrusion, but rather those reports directly analyzing intrusion data, with a focus on describing adversary behavior. If you're interested in what ATT&CK techniques we've spotted so far from UNC2452 and the SUNBURST/TEARDROP malware, you can see our current [ATT&CK Navigator layer](https://mitre-attack.github.io/attack-navigator/#layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Fcenter-for-threat-informed-defense%2Fpublic-resources%2Fmaster%2Fsolorigate%2FUNC2452%2Bmalware.json), or [download it directly](UNC2452+malware.json). We've been updating what's new and being updated in ATT&CK [in our blog](https://medium.com/mitre-attack/identifying-unc2452-related-techniques-9f7b6c7f3714).
 
@@ -12,7 +12,7 @@ If you see a report you think we're missing that matches the above, we'd be inte
       * [CrowdStrike](#crowdstrike)
       * [Department of Homeland Security/Cybersecurity and Infrastructure Security Agency (DHS/CISA)](#department-of-homeland-securitycybersecurity-and-infrastructure-security-agency-dhscisa)
       * [DomainTools](#domaintools)
-      * [FireEye](#fireeye)
+      * [FireEye/Mandiant](#fireeyemandiant)
       * [Kaspersky](#kaspersky)
       * [McAfee](#mcafee)
       * [Microsoft](#microsoft)
@@ -86,7 +86,11 @@ If you see a report you think we're missing that matches the above, we'd be inte
     - Released 14 December 2020
     - https://www.domaintools.com/resources/blog/unraveling-network-infrastructure-linked-to-the-solarwinds-hack
 
-## FireEye
+## FireEye/Mandiant
+- Blog post describing Mandiant's decision to merge the UNC2452 threat group into the pre-exisitng APT29 group. It also includes additional behaviors related to the group.
+  - Released 27 April 2022
+  - https://www.mandiant.com/resources/unc2452-merged-into-apt29
+
 - SUNSHUTTLE malware analysis report describing a newly-reported second-stage backdoor with links to UNC2452. SUNSHUTTLE is a Go-based backdoor that can generate fake traffic and responds to a number of commands from a C2 over HTTPS. This report was released in parallel with Microsoft's NOBELIUM report, which refers to this malware as GoldMax.
   - Released 4 March 2021
   - https://www.fireeye.com/blog/threat-research/2021/03/sunshuttle-second-stage-backdoor-targeting-us-based-entity.html    
