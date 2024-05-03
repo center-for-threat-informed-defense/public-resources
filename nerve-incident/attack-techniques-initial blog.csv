@@ -1,0 +1,9 @@
+Tactic,Technique,ID,Use
+Initial Access,Exploit Public-Facing Applications,T1190,Adversary compromised MITRE's prototypingnetwork through a pair of zero-day vulnerabilities in Ivanti Connect Secure (CVE-2023–46805 & CVE-2024–21887)
+Initial Access,Valid Accounts,T1078,Adversary leveraged compromised accounts
+Persistence,Server Software Component: Web Shell,T1505.003,Adversary installed web shells to maintain persistence
+Execution,Command and Scripting Interpreter,T1059,Adversary executed commands and scripts
+Lateral Movement,Remote Service Session Hijacking,T1563,Adversary hijacked Pulse sessions for users to move laterally into the VMware environment bypassing Multi-factor Authentication
+Lateral Movement,Remote Services,T1021,Adversary attempted several different methods (i.e. RDP and SSH) to utilize valid accounts and move across the network
+Exfiltration,Exfiltration Over C2 Channel,T1041,Adversary exfiltrated data using their C2 infrastructure
+Defense Evasion,Hide Artifacts: Run Virtual Instance,T1564.006,Adversary created staging and persistent VMs within VMware environment

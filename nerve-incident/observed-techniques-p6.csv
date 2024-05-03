@@ -1,0 +1,4 @@
+Tactic,Technique,ID,Use
+Exfiltration,Exfiltration Over Alternative Protocol,T1048,Adversary exfiltrated data
+Discovery,File and Directory Discovery,T1083,Adversary viewed several files
+Collection,Data from Local System,T1005,Adversary searched local system for files and configurations

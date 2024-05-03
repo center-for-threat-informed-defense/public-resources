@@ -1,0 +1,4 @@
+Tactic,Technique,ID,Use
+Initial Access,Exploit Public-Facing Applications,T1190,Adversary compromised MITRE's prototypingnetwork through a pair of zero-day vulnerabilities in Ivanti Connect Secure (CVE-2023–46805 & CVE-2024–21887)
+Persistence,Server Software Component: Web Shell,T1505.003,Adversary installed web shells to maintain persistence
+Lateral Movement,Remote Service Session Hijacking,T1563,Adversary hijacked Pulse sessions for users to move laterally into the VMware environment bypassing Multi-factor Authentication

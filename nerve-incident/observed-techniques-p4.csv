@@ -1,0 +1,8 @@
+Tactic,Technique,ID,Use
+Persistence,Valid Accounts,T1078,Adversary leveraged compromised accounts
+Persistence,Boot or Logon Initialization Scripts,T1037,BRICKSTORM persistence through /etc/
+Discovery,System Information Discovery,T1082,Adversary enumerated a list of mounted and unmounted drives
+Defense Evasion,Masquerading: Match Legitimate Name or Location,T1036.005,Web shells were hidden in other legitimate files
+Command and Control,Application Layer Protocol: Web Protocols,T1071.001,Adversary communicated with C2 domains
+Execution,Command and Scripting Interpreter: Python,T1059.006,Adversary executed Python scripts
+Execution,Command and Scripting Interpreter: Unix Shell,T1059.004,Adversary executed /bin commands

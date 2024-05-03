@@ -1,0 +1,7 @@
+Tactic,Technique,ID,Use
+Initial Access,Valid Accounts,T1078,Adversary leveraged compromised accounts
+Lateral Movement,Remote Desktop Protocol,T1021.001,Adversary RDPed into several prototyping environment accounts
+Discovery,Browser Information Discovery,T1217,Adversary accessed the user's bookmarks
+Discovery,Network Share Discovery,T1135,Adversary accessed file shares
+Collection,Automated Collection,T1119,Adversary collected internal data
+Collection,Data from Local System,T1005,Adversary searched local system for files and configurations

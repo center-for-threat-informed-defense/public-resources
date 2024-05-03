@@ -1,0 +1,7 @@
+IOC,Description
+164.90.144[.]44,RDP'ed into NERVE
+172.75.64[.]253,Suspicious IP
+morsag3ah.workers[.]dev,Suspected C2
+update.morsag3ah.workers[.]dev,Suspected C2
+log.morsag3ah.workers[.]dev,Suspected C2
+cvedev.morsag3ah.workers[.]dev,Suspected C2

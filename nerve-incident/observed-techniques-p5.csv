@@ -1,0 +1,3 @@
+Tactic,Technique,ID,Use
+Collection,Data Staged,T1074,Adversary collected data in a central location for Exfiltration
+Execution,Command and Scripting Interpreter: Python,T1059.006,Adversary executed a Python script
