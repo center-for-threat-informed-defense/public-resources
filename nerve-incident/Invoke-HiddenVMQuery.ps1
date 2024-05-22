@@ -1,4 +1,27 @@
-### THE MITRE Corporation
+########################################################################################
+#
+# Invoke-HiddenVMQuery.ps1: Detect "rogue VMs" that are not registered with vCenter.
+#
+# Version 1.0.2
+# Release Date: 2024-05-22
+# https://github.com/center-for-threat-informed-defense/public-resources/tree/master/nerve-incident
+#
+########################################################################################
+#
+# Copyright 2024 MITRE Engenuity. Approved for public release. Document number(s)
+# CT0117.
+#
+# Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
+# file except in compliance with the License. You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software distributed under
+# the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied. See the License for the specific language governing
+# permissions and limitations under the License.
+#
+########################################################################################
 
 param (
     [Parameter(Mandatory=$false)]
@@ -12,9 +35,6 @@ param (
     [parameter(Mandatory=$false)]
     [psobject]$VMHost
 )
-
-### Please read the README.md before moving forward.
-### This script will be used to identify rogue VM processes and possible VM persistence through rc.local.d on a hypervisor
 
 begin {
     Import-Module -Name "VMware.VimAutomation.Core" -MinimumVersion  '13.2.0.22643732'
