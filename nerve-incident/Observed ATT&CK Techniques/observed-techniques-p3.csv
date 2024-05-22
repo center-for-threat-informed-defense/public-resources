@@ -1,0 +1,2 @@
+Tactic,Technique,ID,Use
+Defense Evasion,Hide Artifacts: Run Virtual Instance,T1564.006,Adversary created VMs within VMware environment
